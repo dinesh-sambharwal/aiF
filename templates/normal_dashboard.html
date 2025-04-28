@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal User Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Welcome message at top left -->
+    <div style="position: absolute; top: 10px; left: 10px;">
+        <h2>Welcome, {{ current_user.name }}</h2>
+    </div>
+
+    <!-- Profile options at top right -->
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <a href="{{ url_for('update_profile') }}" class="btn">Update Profile</a>
+        <a href="{{ url_for('change_password') }}" class="btn">Change Password</a>
+        <a href="{{ url_for('logout') }}" class="btn">Logout</a>
+    </div>
+
+    <form method="POST" action="{{ url_for('normal_dashboard') }}">
+        <label for="topic">Topic:</label>
+        <select name="topic" id="topic">
+            <option value="math">Math</option>
+            <option value="history">History</option>
+            <option value="science">Science</option>
+            <option value="literature">Literature</option>
+        </select>
+        <input type="text" name="custom_topic" placeholder="Or enter a custom topic" />
+        <button type="submit">Generate Flashcards</button>
+    </form>
+
+    <h3>Flashcards:</h3>
+    <div class="flashcard-container">
+        {% for card in flashcards %}
+        <div class="flashcard" onclick="this.classList.toggle('flip')">
+            <div class="front">
+                {{ card.question }}
+            </div>
+            <div class="back">
+                {{ card.answer }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        // Optionally, you can add custom JavaScript to add more features.
+        // For example, you can use a click event to handle the flip functionality.
+    </script>
+</body>
+</html>
