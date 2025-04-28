@@ -90,12 +90,16 @@ def logout():
 @login_required
 def normal_dashboard():
     flashcards = []
-    if request.method == 'POST':
-        topic = request.form['topic']
-        custom_topic = request.form['custom_topic']
-        selected_topic = custom_topic if custom_topic else topic
-        flashcards = generate_flashcards(selected_topic)
     
+    if request.method == 'POST':
+        topic = request.form.get('topic')
+        custom_topic = request.form.get('custom_topic')
+
+        selected_topic = custom_topic if custom_topic.strip() else topic
+
+        # Dummy flashcard generation based on topic
+        flashcards = generate_flashcards(selected_topic)
+
     return render_template('normal_dashboard.html', flashcards=flashcards)
 
 
@@ -202,16 +206,43 @@ def change_password():
 
 # Function to generate flashcards based on the selected topic
 def generate_flashcards(topic):
-    flashcards = []
+    # You can make this more intelligent later using AI
+    topic = topic.lower()
+    sample_flashcards = []
+
     if topic == 'math':
-        flashcards = [{'question': 'What is 2 + 2?', 'answer': '4'}, {'question': 'What is 5 x 5?', 'answer': '25'}]
+        sample_flashcards = [
+            {"question": "What is 2 + 2?", "answer": "4"},
+            {"question": "What is the square root of 16?", "answer": "4"},
+            {"question": "What is Pi approximately?", "answer": "3.1416"}
+        ]
     elif topic == 'history':
-        flashcards = [{'question': 'Who was the first president of the United States?', 'answer': 'George Washington'}, {'question': 'When did World War II end?', 'answer': '1945'}]
+        sample_flashcards = [
+            {"question": "Who was the first President of the USA?", "answer": "George Washington"},
+            {"question": "In which year did World War II end?", "answer": "1945"},
+            {"question": "Where was Napoleon born?", "answer": "Corsica"}
+        ]
     elif topic == 'science':
-        flashcards = [{'question': 'What is the chemical symbol for water?', 'answer': 'H2O'}, {'question': 'What planet is known as the Red Planet?', 'answer': 'Mars'}]
+        sample_flashcards = [
+            {"question": "What planet is known as the Red Planet?", "answer": "Mars"},
+            {"question": "What is the chemical symbol for water?", "answer": "H2O"},
+            {"question": "What gas do plants absorb from the atmosphere?", "answer": "Carbon Dioxide"}
+        ]
     elif topic == 'literature':
-        flashcards = [{'question': 'Who wrote "Romeo and Juliet"?', 'answer': 'William Shakespeare'}, {'question': 'What is the title of the first Harry Potter book?', 'answer': 'Harry Potter and the Philosopher\'s Stone'}]
-    return flashcards
+        sample_flashcards = [
+            {"question": "Who wrote 'Romeo and Juliet'?", "answer": "William Shakespeare"},
+            {"question": "Who is the author of '1984'?", "answer": "George Orwell"},
+            {"question": "Which novel starts with 'Call me Ishmael'?", "answer": "Moby Dick"}
+        ]
+    else:
+        # Custom topics - dummy flashcard generation
+        sample_flashcards = [
+            {"question": f"What is an important fact about {topic}?", "answer": f"{topic.capitalize()} is very interesting!"},
+            {"question": f"Why should we learn about {topic}?", "answer": f"Learning about {topic} improves knowledge."},
+            {"question": f"Who is famous in {topic}?", "answer": f"A famous figure in {topic} could be researched!"}
+        ]
+    
+    return sample_flashcards
 
 
 if __name__ == "__main__":
