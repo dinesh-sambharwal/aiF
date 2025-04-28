@@ -49,7 +49,7 @@ def register():
         role = request.form['role']
         email = request.form['email']
         password = request.form['password']
-        hashed_password = generate_password_hash(password, method='sha256')
+        hashed_password = generate_password_hash(password, method='pbkdf2:sha256')
 
         new_user = User(name=name, role=role, email=email, password=hashed_password)
         db.session.add(new_user)
@@ -114,7 +114,7 @@ def admin_dashboard():
         role = request.form['role']
         email = request.form['email']
         password = request.form['password']
-        hashed_password = generate_password_hash(password, method='sha256')
+        hashed_password = generate_password_hash(password, method='pbkdf2:sha256')
 
         new_user = User(name=name, role=role, email=email, password=hashed_password)
         db.session.add(new_user)
@@ -191,7 +191,7 @@ def change_password():
         user = User.query.get(current_user.id)
 
         if check_password_hash(user.password, current_password):
-            user.password = generate_password_hash(new_password, method='sha256')
+            user.password = generate_password_hash(new_password, method='pbkdf2:sha256')
             db.session.commit()
             return redirect(url_for('normal_dashboard'))
         else:
