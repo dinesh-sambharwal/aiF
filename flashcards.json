@@ -1,0 +1,1372 @@
+{
+    "Operating System": [
+        {
+            "question": "What is the full form of OS?",
+            "answer": "Operating System"
+        },
+        {
+            "question": "What is virtual memory?",
+            "answer": "Memory management technique"
+        },
+        {
+            "question": "What does CPU stand for?",
+            "answer": "Central Processing Unit"
+        },
+        {
+            "question": "What is a file system?",
+            "answer": "System to manage files"
+        },
+        {
+            "question": "What is a process?",
+            "answer": "Program in execution"
+        },
+        {
+            "question": "What is a thread?",
+            "answer": "Lightweight process"
+        },
+        {
+            "question": "What is multitasking?",
+            "answer": "Running multiple tasks"
+        },
+        {
+            "question": "What is deadlock?",
+            "answer": "Processes waiting forever"
+        },
+        {
+            "question": "What is a kernel?",
+            "answer": "Core of operating system"
+        },
+        {
+            "question": "What is context switching?",
+            "answer": "Switching CPU from one task to another"
+        },
+        {
+            "question": "What is paging?",
+            "answer": "Memory management scheme"
+        },
+        {
+            "question": "What is segmentation?",
+            "answer": "Dividing memory into segments"
+        },
+        {
+            "question": "What is demand paging?",
+            "answer": "Load pages only when needed"
+        },
+        {
+            "question": "What is swapping?",
+            "answer": "Moving processes in and out of memory"
+        },
+        {
+            "question": "What is IPC?",
+            "answer": "Inter-Process Communication"
+        },
+        {
+            "question": "What is semaphore?",
+            "answer": "Synchronization tool"
+        },
+        {
+            "question": "What is scheduling?",
+            "answer": "Deciding process execution order"
+        },
+        {
+            "question": "What is round robin scheduling?",
+            "answer": "Time-slice based scheduling"
+        },
+        {
+            "question": "What is priority scheduling?",
+            "answer": "Based on priority levels"
+        },
+        {
+            "question": "What is starvation?",
+            "answer": "Process never gets CPU"
+        },
+        {
+            "question": "What is aging?",
+            "answer": "Preventing starvation"
+        },
+        {
+            "question": "What is spooling?",
+            "answer": "Buffering data for devices"
+        },
+        {
+            "question": "What is booting?",
+            "answer": "Starting the computer"
+        },
+        {
+            "question": "What is a device driver?",
+            "answer": "Software to control hardware"
+        },
+        {
+            "question": "What is real-time OS?",
+            "answer": "OS for real-time tasks"
+        },
+        {
+            "question": "What is time-sharing?",
+            "answer": "Sharing CPU time"
+        },
+        {
+            "question": "What is system call?",
+            "answer": "Request to kernel"
+        },
+        {
+            "question": "What is user mode?",
+            "answer": "Restricted CPU mode"
+        },
+        {
+            "question": "What is kernel mode?",
+            "answer": "Privileged CPU mode"
+        },
+        {
+            "question": "What is thrashing?",
+            "answer": "Excessive paging"
+        },
+        {
+            "question": "What is fragmentation?",
+            "answer": "Wasted memory space"
+        },
+        {
+            "question": "What is internal fragmentation?",
+            "answer": "Unused memory inside allocation"
+        },
+        {
+            "question": "What is external fragmentation?",
+            "answer": "Free memory scattered"
+        },
+        {
+            "question": "What is BIOS?",
+            "answer": "Basic Input Output System"
+        },
+        {
+            "question": "What is shell?",
+            "answer": "Interface to OS services"
+        },
+        {
+            "question": "What is load balancing?",
+            "answer": "Distributing workload"
+        },
+        {
+            "question": "What is disk scheduling?",
+            "answer": "Manage disk access"
+        },
+        {
+            "question": "What is FCFS scheduling?",
+            "answer": "First Come First Serve"
+        },
+        {
+            "question": "What is SJF scheduling?",
+            "answer": "Shortest Job First"
+        },
+        {
+            "question": "What is MMU?",
+            "answer": "Memory Management Unit"
+        },
+        {
+            "question": "What is RAID?",
+            "answer": "Redundant Array of Independent Disks"
+        },
+        {
+            "question": "What is bootloader?",
+            "answer": "Loads OS into memory"
+        },
+        {
+            "question": "What is hybrid OS?",
+            "answer": "Combination of kernel types"
+        },
+        {
+            "question": "What is caching?",
+            "answer": "Storing frequently used data"
+        },
+        {
+            "question": "What is logical address?",
+            "answer": "Generated by CPU"
+        },
+        {
+            "question": "What is physical address?",
+            "answer": "Address in memory"
+        },
+        {
+            "question": "What is dual mode?",
+            "answer": "User and kernel mode"
+        },
+        {
+            "question": "What is command interpreter?",
+            "answer": "Executes user commands"
+        },
+        {
+            "question": "What is trap?",
+            "answer": "Software interrupt"
+        }
+    ],
+    "Object-Oriented Programming": [
+        {
+            "question": "What does OOPS stand for?",
+            "answer": "Object-Oriented Programming System"
+        },
+        {
+            "question": "What is inheritance?",
+            "answer": "Derive new class from existing"
+        },
+        {
+            "question": "What is polymorphism?",
+            "answer": "Ability to take many forms"
+        },
+        {
+            "question": "What is encapsulation?",
+            "answer": "Binding data and methods"
+        },
+        {
+            "question": "What is abstraction?",
+            "answer": "Hiding unnecessary details"
+        },
+        {
+            "question": "What is a class?",
+            "answer": "Blueprint for objects"
+        },
+        {
+            "question": "What is an object?",
+            "answer": "Instance of a class"
+        },
+        {
+            "question": "What is method overloading?",
+            "answer": "Same method name, different params"
+        },
+        {
+            "question": "What is method overriding?",
+            "answer": "Redefining method in subclass"
+        },
+        {
+            "question": "What is constructor?",
+            "answer": "Initializes an object"
+        },
+        {
+            "question": "What is destructor?",
+            "answer": "Destroys object"
+        },
+        {
+            "question": "What is interface?",
+            "answer": "Abstract type for methods"
+        },
+        {
+            "question": "What is abstract class?",
+            "answer": "Class with abstract methods"
+        },
+        {
+            "question": "What is super keyword?",
+            "answer": "Refers to parent class"
+        },
+        {
+            "question": "What is this keyword?",
+            "answer": "Refers to current object"
+        },
+        {
+            "question": "What is static keyword?",
+            "answer": "Belongs to class, not object"
+        },
+        {
+            "question": "What is final keyword?",
+            "answer": "Prevents modification"
+        },
+        {
+            "question": "What is package?",
+            "answer": "Group of related classes"
+        },
+        {
+            "question": "What is namespace?",
+            "answer": "Prevents name conflicts"
+        },
+        {
+            "question": "What is association?",
+            "answer": "Relationship between classes"
+        },
+        {
+            "question": "What is aggregation?",
+            "answer": "Has-a relationship"
+        },
+        {
+            "question": "What is composition?",
+            "answer": "Strong has-a relationship"
+        },
+        {
+            "question": "What is dependency?",
+            "answer": "Uses-a relationship"
+        },
+        {
+            "question": "What is cohesion?",
+            "answer": "Degree of relatedness"
+        },
+        {
+            "question": "What is coupling?",
+            "answer": "Degree of dependency"
+        },
+        {
+            "question": "What is singleton pattern?",
+            "answer": "Only one instance allowed"
+        },
+        {
+            "question": "What is MVC?",
+            "answer": "Model View Controller"
+        },
+        {
+            "question": "What is object slicing?",
+            "answer": "Losing subclass data"
+        },
+        {
+            "question": "What is virtual function?",
+            "answer": "Supports polymorphism"
+        },
+        {
+            "question": "What is friend function?",
+            "answer": "Accesses private members"
+        },
+        {
+            "question": "What is operator overloading?",
+            "answer": "Redefining operators"
+        },
+        {
+            "question": "What is dynamic binding?",
+            "answer": "Runtime method binding"
+        },
+        {
+            "question": "What is early binding?",
+            "answer": "Compile-time binding"
+        },
+        {
+            "question": "What is encapsulation in Java?",
+            "answer": "Private fields with getters/setters"
+        },
+        {
+            "question": "What is garbage collection?",
+            "answer": "Automatic memory management"
+        },
+        {
+            "question": "What is shallow copy?",
+            "answer": "Copy references only"
+        },
+        {
+            "question": "What is deep copy?",
+            "answer": "Copy objects completely"
+        },
+        {
+            "question": "What is RTTI?",
+            "answer": "Run-Time Type Identification"
+        },
+        {
+            "question": "What is multiple inheritance?",
+            "answer": "Inheriting from multiple classes"
+        },
+        {
+            "question": "What is hybrid inheritance?",
+            "answer": "Combination of inheritance types"
+        },
+        {
+            "question": "What is composition over inheritance?",
+            "answer": "Prefer has-a over is-a"
+        },
+        {
+            "question": "What is SOLID principle?",
+            "answer": "Design principles for OOP"
+        },
+        {
+            "question": "What is DRY principle?",
+            "answer": "Don't Repeat Yourself"
+        },
+        {
+            "question": "What is Liskov Substitution?",
+            "answer": "Subtype must substitute supertype"
+        },
+        {
+            "question": "What is open/closed principle?",
+            "answer": "Open for extension, closed for modification"
+        },
+        {
+            "question": "What is dependency injection?",
+            "answer": "Pass dependencies externally"
+        },
+        {
+            "question": "What is factory pattern?",
+            "answer": "Creates objects without exposing logic"
+        },
+        {
+            "question": "What is prototype pattern?",
+            "answer": "Clone existing object"
+        }
+    ],
+    "Data Structures and Algorithms": [
+        {
+            "question": "What does DSA stand for?",
+            "answer": "Data Structures and Algorithms"
+        },
+        {
+            "question": "What is a stack?",
+            "answer": "LIFO data structure"
+        },
+        {
+            "question": "What is a queue?",
+            "answer": "FIFO data structure"
+        },
+        {
+            "question": "What is a linked list?",
+            "answer": "Linear data structure"
+        },
+        {
+            "question": "What is quicksort?",
+            "answer": "Sorting algorithm"
+        },
+        {
+            "question": "What is binary search?",
+            "answer": "Search in sorted array"
+        },
+        {
+            "question": "What is recursion?",
+            "answer": "Function calling itself"
+        },
+        {
+            "question": "What is a tree?",
+            "answer": "Hierarchical data structure"
+        },
+        {
+            "question": "What is a graph?",
+            "answer": "Set of nodes and edges"
+        },
+        {
+            "question": "What is BFS?",
+            "answer": "Breadth-First Search"
+        },
+        {
+            "question": "What is DFS?",
+            "answer": "Depth-First Search"
+        },
+        {
+            "question": "What is hash table?",
+            "answer": "Key-value storage"
+        },
+        {
+            "question": "What is heap?",
+            "answer": "Tree-based structure"
+        },
+        {
+            "question": "What is AVL tree?",
+            "answer": "Balanced binary tree"
+        },
+        {
+            "question": "What is binary tree?",
+            "answer": "Tree with two children max"
+        },
+        {
+            "question": "What is BST?",
+            "answer": "Binary Search Tree"
+        },
+        {
+            "question": "What is dynamic programming?",
+            "answer": "Optimizing recursive problems"
+        },
+        {
+            "question": "What is greedy algorithm?",
+            "answer": "Locally optimal choice"
+        },
+        {
+            "question": "What is time complexity?",
+            "answer": "Algorithm's time growth"
+        },
+        {
+            "question": "What is space complexity?",
+            "answer": "Algorithm's memory usage"
+        },
+        {
+            "question": "What is Big O notation?",
+            "answer": "Worst-case analysis"
+        },
+        {
+            "question": "What is selection sort?",
+            "answer": "Simple sorting algorithm"
+        },
+        {
+            "question": "What is insertion sort?",
+            "answer": "Sorts by insertion"
+        },
+        {
+            "question": "What is merge sort?",
+            "answer": "Divide and conquer sort"
+        },
+        {
+            "question": "What is radix sort?",
+            "answer": "Non-comparison sort"
+        },
+        {
+            "question": "What is bucket sort?",
+            "answer": "Distributes elements into buckets"
+        },
+        {
+            "question": "What is trie?",
+            "answer": "Prefix tree structure"
+        },
+        {
+            "question": "What is priority queue?",
+            "answer": "Queue with priorities"
+        },
+        {
+            "question": "What is circular queue?",
+            "answer": "Queue with circular link"
+        },
+        {
+            "question": "What is adjacency matrix?",
+            "answer": "Graph using 2D array"
+        },
+        {
+            "question": "What is adjacency list?",
+            "answer": "Graph using lists"
+        },
+        {
+            "question": "What is Floyd-Warshall?",
+            "answer": "All-pairs shortest path"
+        },
+        {
+            "question": "What is Dijkstra's algorithm?",
+            "answer": "Shortest path algorithm"
+        },
+        {
+            "question": "What is Kruskal's algorithm?",
+            "answer": "Minimum spanning tree"
+        },
+        {
+            "question": "What is Prim's algorithm?",
+            "answer": "Spanning tree algorithm"
+        },
+        {
+            "question": "What is Bellman-Ford algorithm?",
+            "answer": "Shortest path with negatives"
+        },
+        {
+            "question": "What is backtracking?",
+            "answer": "Try and back up technique"
+        },
+        {
+            "question": "What is memoization?",
+            "answer": "Store results for reuse"
+        },
+        {
+            "question": "What is Kadane's algorithm?",
+            "answer": "Max subarray sum"
+        },
+        {
+            "question": "What is topological sort?",
+            "answer": "Ordering in DAG"
+        },
+        {
+            "question": "What is disjoint set?",
+            "answer": "Union-find structure"
+        },
+        {
+            "question": "What is amortized analysis?",
+            "answer": "Average performance over operations"
+        },
+        {
+            "question": "What is pancake sorting?",
+            "answer": "Sorting by flipping"
+        },
+        {
+            "question": "What is exponential search?",
+            "answer": "Search in sorted array"
+        },
+        {
+            "question": "What is jump search?",
+            "answer": "Search by jumping blocks"
+        },
+        {
+            "question": "What is count sort?",
+            "answer": "Counting occurrences"
+        },
+        {
+            "question": "What is cycle detection?",
+            "answer": "Finding loops in graph"
+        },
+        {
+            "question": "What is segment tree?",
+            "answer": "Range query structure"
+        },
+        {
+            "question": "What is Fenwick tree?",
+            "answer": "Binary Indexed Tree"
+        }
+    ],
+    "Database": [
+        {
+            "question": "What does SQL stand for?",
+            "answer": "Structured Query Language"
+        },
+        {
+            "question": "What is normalization?",
+            "answer": "Organizing data efficiently"
+        },
+        {
+            "question": "What is a foreign key?",
+            "answer": "Link between tables"
+        },
+        {
+            "question": "What is a primary key?",
+            "answer": "Unique record identifier"
+        },
+        {
+            "question": "What is an index?",
+            "answer": "Speeds up search queries"
+        },
+        {
+            "question": "What is a table?",
+            "answer": "Collection of related data"
+        },
+        {
+            "question": "What is a row?",
+            "answer": "Single record in table"
+        },
+        {
+            "question": "What is a column?",
+            "answer": "Attribute of data"
+        },
+        {
+            "question": "What is a schema?",
+            "answer": "Structure of database"
+        },
+        {
+            "question": "What is a view?",
+            "answer": "Virtual table"
+        },
+        {
+            "question": "What is a trigger?",
+            "answer": "Auto action on event"
+        },
+        {
+            "question": "What is stored procedure?",
+            "answer": "Saved SQL code"
+        },
+        {
+            "question": "What is ACID property?",
+            "answer": "Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+            "question": "What is transaction?",
+            "answer": "Unit of work"
+        },
+        {
+            "question": "What is rollback?",
+            "answer": "Undo transaction"
+        },
+        {
+            "question": "What is commit?",
+            "answer": "Save transaction"
+        },
+        {
+            "question": "What is join?",
+            "answer": "Combine tables"
+        },
+        {
+            "question": "What is inner join?",
+            "answer": "Common rows only"
+        },
+        {
+            "question": "What is left join?",
+            "answer": "All left table rows"
+        },
+        {
+            "question": "What is right join?",
+            "answer": "All right table rows"
+        },
+        {
+            "question": "What is full join?",
+            "answer": "All rows from both"
+        },
+        {
+            "question": "What is self join?",
+            "answer": "Join table to itself"
+        },
+        {
+            "question": "What is cross join?",
+            "answer": "Cartesian product"
+        },
+        {
+            "question": "What is subquery?",
+            "answer": "Query inside query"
+        },
+        {
+            "question": "What is NoSQL?",
+            "answer": "Non-relational database"
+        },
+        {
+            "question": "What is MongoDB?",
+            "answer": "NoSQL document DB"
+        },
+        {
+            "question": "What is key-value store?",
+            "answer": "Simple NoSQL model"
+        },
+        {
+            "question": "What is sharding?",
+            "answer": "Database partitioning"
+        },
+        {
+            "question": "What is replication?",
+            "answer": "Copying data"
+        },
+        {
+            "question": "What is indexing?",
+            "answer": "Speed optimization"
+        },
+        {
+            "question": "What is clustered index?",
+            "answer": "Sorts rows physically"
+        },
+        {
+            "question": "What is non-clustered index?",
+            "answer": "Separate index structure"
+        },
+        {
+            "question": "What is data redundancy?",
+            "answer": "Duplicate data"
+        },
+        {
+            "question": "What is 1NF?",
+            "answer": "No repeating groups"
+        },
+        {
+            "question": "What is 2NF?",
+            "answer": "No partial dependency"
+        },
+        {
+            "question": "What is 3NF?",
+            "answer": "No transitive dependency"
+        },
+        {
+            "question": "What is BCNF?",
+            "answer": "Stronger 3NF"
+        },
+        {
+            "question": "What is denormalization?",
+            "answer": "Reduce joins"
+        },
+        {
+            "question": "What is OLTP?",
+            "answer": "Online Transaction Processing"
+        },
+        {
+            "question": "What is OLAP?",
+            "answer": "Online Analytical Processing"
+        },
+        {
+            "question": "What is data warehouse?",
+            "answer": "Central data store"
+        },
+        {
+            "question": "What is ETL?",
+            "answer": "Extract, Transform, Load"
+        },
+        {
+            "question": "What is data mining?",
+            "answer": "Discover patterns"
+        },
+        {
+            "question": "What is SQL injection?",
+            "answer": "DB attack method"
+        },
+        {
+            "question": "What is constraint?",
+            "answer": "Rule on data"
+        },
+        {
+            "question": "What is unique constraint?",
+            "answer": "No duplicate values"
+        },
+        {
+            "question": "What is check constraint?",
+            "answer": "Condition on column"
+        },
+        {
+            "question": "What is default constraint?",
+            "answer": "Default column value"
+        },
+        {
+            "question": "What is cascade delete?",
+            "answer": "Delete linked records"
+        }
+    ],
+    "Computer Networks": [
+        {
+            "question": "What is an IP address?",
+            "answer": "Unique network identifier"
+        },
+        {
+            "question": "What is DNS?",
+            "answer": "Domain Name System"
+        },
+        {
+            "question": "What is HTTP?",
+            "answer": "HyperText Transfer Protocol"
+        },
+        {
+            "question": "What is a router?",
+            "answer": "Routes network traffic"
+        },
+        {
+            "question": "What is a firewall?",
+            "answer": "Network security system"
+        },
+        {
+            "question": "What is TCP?",
+            "answer": "Transmission Control Protocol"
+        },
+        {
+            "question": "What is UDP?",
+            "answer": "User Datagram Protocol"
+        },
+        {
+            "question": "What is MAC address?",
+            "answer": "Hardware address"
+        },
+        {
+            "question": "What is subnet mask?",
+            "answer": "Network segmentation tool"
+        },
+        {
+            "question": "What is NAT?",
+            "answer": "Network Address Translation"
+        },
+        {
+            "question": "What is VPN?",
+            "answer": "Virtual Private Network"
+        },
+        {
+            "question": "What is LAN?",
+            "answer": "Local Area Network"
+        },
+        {
+            "question": "What is WAN?",
+            "answer": "Wide Area Network"
+        },
+        {
+            "question": "What is MAN?",
+            "answer": "Metropolitan Area Network"
+        },
+        {
+            "question": "What is PAN?",
+            "answer": "Personal Area Network"
+        },
+        {
+            "question": "What is OSI model?",
+            "answer": "7-layer network model"
+        },
+        {
+            "question": "What is layer 2?",
+            "answer": "Data link layer"
+        },
+        {
+            "question": "What is layer 3?",
+            "answer": "Network layer"
+        },
+        {
+            "question": "What is ARP?",
+            "answer": "Address Resolution Protocol"
+        },
+        {
+            "question": "What is ICMP?",
+            "answer": "Internet Control Message Protocol"
+        },
+        {
+            "question": "What is ping?",
+            "answer": "Network reachability test"
+        },
+        {
+            "question": "What is traceroute?",
+            "answer": "Shows path to host"
+        },
+        {
+            "question": "What is bandwidth?",
+            "answer": "Data transfer rate"
+        },
+        {
+            "question": "What is latency?",
+            "answer": "Delay in communication"
+        },
+        {
+            "question": "What is throughput?",
+            "answer": "Actual data transfer"
+        },
+        {
+            "question": "What is packet?",
+            "answer": "Unit of data transfer"
+        },
+        {
+            "question": "What is switch?",
+            "answer": "Connects devices in LAN"
+        },
+        {
+            "question": "What is hub?",
+            "answer": "Broadcasts to all ports"
+        },
+        {
+            "question": "What is bridge?",
+            "answer": "Connects network segments"
+        },
+        {
+            "question": "What is repeater?",
+            "answer": "Amplifies signal"
+        },
+        {
+            "question": "What is modem?",
+            "answer": "Modulates signal"
+        },
+        {
+            "question": "What is FTP?",
+            "answer": "File Transfer Protocol"
+        },
+        {
+            "question": "What is SMTP?",
+            "answer": "Simple Mail Transfer Protocol"
+        },
+        {
+            "question": "What is POP3?",
+            "answer": "Post Office Protocol"
+        },
+        {
+            "question": "What is IMAP?",
+            "answer": "Internet Message Access Protocol"
+        },
+        {
+            "question": "What is SSL?",
+            "answer": "Secure Sockets Layer"
+        },
+        {
+            "question": "What is TLS?",
+            "answer": "Transport Layer Security"
+        },
+        {
+            "question": "What is port?",
+            "answer": "Endpoint for communication"
+        },
+        {
+            "question": "What is IPv4?",
+            "answer": "32-bit IP version"
+        },
+        {
+            "question": "What is IPv6?",
+            "answer": "128-bit IP version"
+        },
+        {
+            "question": "What is collision domain?",
+            "answer": "Network where collisions occur"
+        },
+        {
+            "question": "What is broadcast domain?",
+            "answer": "Receives broadcast frames"
+        },
+        {
+            "question": "What is CSMA/CD?",
+            "answer": "Ethernet access method"
+        },
+        {
+            "question": "What is token ring?",
+            "answer": "Network access method"
+        },
+        {
+            "question": "What is mesh topology?",
+            "answer": "All nodes connected"
+        },
+        {
+            "question": "What is star topology?",
+            "answer": "All nodes to hub"
+        },
+        {
+            "question": "What is ring topology?",
+            "answer": "Nodes in circle"
+        },
+        {
+            "question": "What is hybrid topology?",
+            "answer": "Mix of topologies"
+        },
+        {
+            "question": "What is load balancing?",
+            "answer": "Distribute network load"
+        }
+    ],
+    "Computer Graphics": [
+        {
+            "question": "What does CG stand for?",
+            "answer": "Computer Graphics"
+        },
+        {
+            "question": "What is raster graphics?",
+            "answer": "Pixel-based images"
+        },
+        {
+            "question": "What is vector graphics?",
+            "answer": "Path-based graphics"
+        },
+        {
+            "question": "What is a GPU?",
+            "answer": "Graphics Processing Unit"
+        },
+        {
+            "question": "What is rendering?",
+            "answer": "Generating image from model"
+        },
+        {
+            "question": "What is a pixel?",
+            "answer": "Smallest image unit"
+        },
+        {
+            "question": "What is anti-aliasing?",
+            "answer": "Smooth jagged edges"
+        },
+        {
+            "question": "What is texture mapping?",
+            "answer": "Applying image to surface"
+        },
+        {
+            "question": "What is OpenGL?",
+            "answer": "Graphics rendering library"
+        },
+        {
+            "question": "What is DirectX?",
+            "answer": "Microsoft graphics API"
+        },
+        {
+            "question": "What is shading?",
+            "answer": "Simulate light on surface"
+        },
+        {
+            "question": "What is ray tracing?",
+            "answer": "Trace light rays"
+        },
+        {
+            "question": "What is rasterization?",
+            "answer": "Convert vectors to pixels"
+        },
+        {
+            "question": "What is Z-buffering?",
+            "answer": "Manage depth coordinates"
+        },
+        {
+            "question": "What is frame buffer?",
+            "answer": "Stores image pixels"
+        },
+        {
+            "question": "What is clipping?",
+            "answer": "Cut out parts outside view"
+        },
+        {
+            "question": "What is transformation?",
+            "answer": "Change object position"
+        },
+        {
+            "question": "What is scaling?",
+            "answer": "Resize objects"
+        },
+        {
+            "question": "What is rotation?",
+            "answer": "Rotate object"
+        },
+        {
+            "question": "What is translation?",
+            "answer": "Move object position"
+        },
+        {
+            "question": "What is Bezier curve?",
+            "answer": "Smooth curve model"
+        },
+        {
+            "question": "What is spline?",
+            "answer": "Piecewise polynomial curve"
+        },
+        {
+            "question": "What is Gouraud shading?",
+            "answer": "Smooth shading technique"
+        },
+        {
+            "question": "What is Phong shading?",
+            "answer": "Accurate shading model"
+        },
+        {
+            "question": "What is 2D graphics?",
+            "answer": "Flat images"
+        },
+        {
+            "question": "What is 3D graphics?",
+            "answer": "Images with depth"
+        },
+        {
+            "question": "What is wireframe?",
+            "answer": "3D skeleton model"
+        },
+        {
+            "question": "What is bump mapping?",
+            "answer": "Simulate surface details"
+        },
+        {
+            "question": "What is normal mapping?",
+            "answer": "Detailed lighting effect"
+        },
+        {
+            "question": "What is tessellation?",
+            "answer": "Subdivide surfaces"
+        },
+        {
+            "question": "What is LOD?",
+            "answer": "Level of Detail"
+        },
+        {
+            "question": "What is occlusion culling?",
+            "answer": "Skip hidden objects"
+        },
+        {
+            "question": "What is shadow mapping?",
+            "answer": "Create shadows"
+        },
+        {
+            "question": "What is fogging?",
+            "answer": "Simulate fog effect"
+        },
+        {
+            "question": "What is particle system?",
+            "answer": "Simulate fire, smoke"
+        },
+        {
+            "question": "What is animation?",
+            "answer": "Move objects over time"
+        },
+        {
+            "question": "What is keyframe?",
+            "answer": "Important frame in animation"
+        },
+        {
+            "question": "What is morphing?",
+            "answer": "Smooth shape transformation"
+        },
+        {
+            "question": "What is bitmap?",
+            "answer": "Pixel image format"
+        },
+        {
+            "question": "What is HDR?",
+            "answer": "High Dynamic Range"
+        },
+        {
+            "question": "What is alpha blending?",
+            "answer": "Combine transparency"
+        },
+        {
+            "question": "What is perspective projection?",
+            "answer": "3D view projection"
+        },
+        {
+            "question": "What is orthographic projection?",
+            "answer": "Flat projection"
+        },
+        {
+            "question": "What is viewport?",
+            "answer": "Display area"
+        },
+        {
+            "question": "What is scanline algorithm?",
+            "answer": "Fill polygons"
+        },
+        {
+            "question": "What is convex hull?",
+            "answer": "Smallest enclosing shape"
+        },
+        {
+            "question": "What is frustum?",
+            "answer": "Visible 3D volume"
+        }
+    ],
+    "Others": [
+        {
+            "question": "What is a compiler?",
+            "answer": "Converts code to machine code"
+        },
+        {
+            "question": "What is an interpreter?",
+            "answer": "Executes code line by line"
+        },
+        {
+            "question": "What is an algorithm?",
+            "answer": "Steps to solve problem"
+        },
+        {
+            "question": "What is cloud computing?",
+            "answer": "Remote storage and compute"
+        },
+        {
+            "question": "What is blockchain?",
+            "answer": "Distributed ledger"
+        },
+        {
+            "question": "What is AI?",
+            "answer": "Artificial Intelligence"
+        },
+        {
+            "question": "What is ML?",
+            "answer": "Machine Learning"
+        },
+        {
+            "question": "What is IoT?",
+            "answer": "Internet of Things"
+        },
+        {
+            "question": "What is Big Data?",
+            "answer": "Large data sets"
+        },
+        {
+            "question": "What is API?",
+            "answer": "Application Programming Interface"
+        },
+        {
+            "question": "What is SDK?",
+            "answer": "Software Development Kit"
+        },
+        {
+            "question": "What is IDE?",
+            "answer": "Integrated Development Environment"
+        },
+        {
+            "question": "What is version control?",
+            "answer": "Track code changes"
+        },
+        {
+            "question": "What is Git?",
+            "answer": "Version control system"
+        },
+        {
+            "question": "What is GitHub?",
+            "answer": "Code hosting platform"
+        },
+        {
+            "question": "What is CI/CD?",
+            "answer": "Continuous Integration/Delivery"
+        },
+        {
+            "question": "What is agile?",
+            "answer": "Iterative development method"
+        },
+        {
+            "question": "What is scrum?",
+            "answer": "Agile framework"
+        },
+        {
+            "question": "What is DevOps?",
+            "answer": "Dev and ops collaboration"
+        },
+        {
+            "question": "What is virtual machine?",
+            "answer": "Emulated computer"
+        },
+        {
+            "question": "What is container?",
+            "answer": "Lightweight VM"
+        },
+        {
+            "question": "What is Docker?",
+            "answer": "Container platform"
+        },
+        {
+            "question": "What is Kubernetes?",
+            "answer": "Container orchestration"
+        },
+        {
+            "question": "What is JSON?",
+            "answer": "Data format"
+        },
+        {
+            "question": "What is XML?",
+            "answer": "Markup language"
+        },
+        {
+            "question": "What is REST?",
+            "answer": "API design style"
+        },
+        {
+            "question": "What is SOAP?",
+            "answer": "Protocol for APIs"
+        },
+        {
+            "question": "What is encryption?",
+            "answer": "Secure data encoding"
+        },
+        {
+            "question": "What is hashing?",
+            "answer": "Data fingerprinting"
+        },
+        {
+            "question": "What is SSL?",
+            "answer": "Secure connection protocol"
+        },
+        {
+            "question": "What is malware?",
+            "answer": "Malicious software"
+        },
+        {
+            "question": "What is phishing?",
+            "answer": "Fraudulent attempt"
+        },
+        {
+            "question": "What is SQL injection?",
+            "answer": "Database attack"
+        },
+        {
+            "question": "What is DoS attack?",
+            "answer": "Denial of Service"
+        },
+        {
+            "question": "What is CDN?",
+            "answer": "Content Delivery Network"
+        },
+        {
+            "question": "What is latency?",
+            "answer": "Communication delay"
+        },
+        {
+            "question": "What is bandwidth?",
+            "answer": "Data capacity"
+        },
+        {
+            "question": "What is cache?",
+            "answer": "Fast storage"
+        },
+        {
+            "question": "What is thread?",
+            "answer": "Lightweight process"
+        },
+        {
+            "question": "What is process?",
+            "answer": "Program in execution"
+        },
+        {
+            "question": "What is semaphore?",
+            "answer": "Sync mechanism"
+        },
+        {
+            "question": "What is deadlock?",
+            "answer": "Processes stuck forever"
+        },
+        {
+            "question": "What is cloud storage?",
+            "answer": "Online file storage"
+        },
+        {
+            "question": "What is SaaS?",
+            "answer": "Software as Service"
+        },
+        {
+            "question": "What is PaaS?",
+            "answer": "Platform as Service"
+        },
+        {
+            "question": "What is IaaS?",
+            "answer": "Infrastructure as Service"
+        },
+        {
+            "question": "What is load balancing?",
+            "answer": "Distribute workload"
+        },
+        {
+            "question": "What is scalability?",
+            "answer": "Handle growth"
+        }
+    ]
+}

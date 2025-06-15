@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Question</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Edit Question</h2>
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <a class="btn" href="{{ dashboard_url }}">Back to Dashboard</a>
+    </div>
+    <form method="POST">
+        <label for="question">Question:</label>
+        <input type="text" id="question" name="question" value="{{ question_data['question'] }}" required><br><br>
+        
+        <label for="answer">Answer:</label>
+        <input type="text" id="answer" name="answer" value="{{ question_data['answer'] }}" required><br><br>
+        
+        <button type="submit">Update Question</button>
+    </form>
+
+    <br>
+    <div style="position: absolute; top: 10px; right: 180px;">
+        <a class="btn" href="{{ url_for('manage_questions') }}">Back to Manage Questions</a>
+    </div>
+</body>
+</html>

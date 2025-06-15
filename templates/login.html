@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <!-- Back to Home button at top right -->
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <a href="{{ url_for('home') }}" class="btn">Back to Home</a>
+    </div>
+
+    <h1>Login</h1>
+
+    <form method="POST" action="{{ url_for('login') }}">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="role">Login As:</label>
+        <select name="role" required>
+            <option value>Select Role</option>
+            <option value="normal">Normal</option>    
+            <option value="admin">Admin</option>
+            <option value="teacher">Teacher</option>
+            <option value="student">Student</option>
+        </select>
+        
+        <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="{{ url_for('register') }}">Register here</a></p>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <script>
+            {% for category, message in messages %}
+                Swal.fire({
+                icon: "{{ 'success' if category == 'success' else 'error' }}",
+                title: "{{ message }}",
+                timer: 3000,
+                showConfirmButton: false
+                });
+            {% endfor %}
+            </script>
+        {% endif %}
+    {% endwith %}
+
+</body>
+</html>

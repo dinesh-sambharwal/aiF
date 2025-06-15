@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Topic</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Manage Topics</h2>
+    <table border="1">
+        <tr>
+            <th>Topic Name</th>
+            <th>Action</th>
+        </tr>
+        {% for topic in flashcard_data.keys() %}
+        <tr>
+            <td>{{ topic }}</td>
+            <td>
+                <form method="POST" action="{{ url_for('delete_topic') }}" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete the topic {{ topic }} and all its questions?');">
+                    <input type="hidden" name="topic_to_delete" value="{{ topic }}">
+                    <button style="padding: 8px 12px;
+                            background-color: #dc3545;
+                            color: white;
+                            border-radius: 5px;
+                            text-decoration: none;
+                            margin: 5px;
+                            display: inline-block;" type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <hr>
+    <br>
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <a class="btn" href="{{ url_for('manage_questions') }}">Back to Manage Questions</a>
+    </div>
+</body>
+</html>

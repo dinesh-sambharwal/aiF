@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Question</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- <script>
+        document.getElementById('topic_select').addEventListener('change', function() {
+            var newTopicField = document.getElementById('new_topic_field');
+            if (this.value === 'add_new') {
+                newTopicField.disabled = false;
+            } else {
+                newTopicField.disabled = true;
+                newTopicField.value = '';  // Clear field when disabled
+            }
+        });
+    </script>     -->
+</head>
+<body>
+    <h2>Add a New Flashcard</h2>
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <a class="btn" href="{{ dashboard_url }}">Back to Dashboard</a>
+    </div>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <script>
+            {% for category, message in messages %}
+                alert("{{ message }}");
+            {% endfor %}
+            </script>
+        {% endif %}
+    {% endwith %}
+
+    <form method="POST">
+        <label for="topic_select">Select Topic:</label>
+        <select name="selected_topic" id="topic_select" required>
+	      <option value="">--Select Topic--</option>
+	      <option value="add_new">Add New Topic</option>
+          {% for topic in topics %}
+            <option value="{{ topic }}">{{ topic }}</option>
+          {% endfor %}
+        </select>
+      
+        <br><br>
+      
+        <label for="new_topic_field">Or Add New Topic:</label>
+        <input type="text" name="new_topic" id="new_topic_field" placeholder="Enter new topic" disabled>
+      
+        <br><br>
+      
+        Question: <input type="text" name="question"><br>
+        Answer: <input type="text" name="answer"><br>
+        <button type="submit">Add Question</button>
+      </form>
+      
+      <script>
+      // This script runs after the page is fully loaded
+      document.addEventListener('DOMContentLoaded', function() {
+        const topicSelect = document.getElementById('topic_select');
+        const newTopicField = document.getElementById('new_topic_field');
+      
+        topicSelect.addEventListener('change', function() {
+          if (this.value === 'add_new') {
+            newTopicField.disabled = false;
+            newTopicField.focus();  // optional: auto focus
+          } else {
+            newTopicField.disabled = true;
+            newTopicField.value = '';  // clear
+          }
+        });
+      });
+      </script>
+      
+</body>
+</html>

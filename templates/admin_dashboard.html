@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+<body>
+    
+    <div class="top-bar">
+        <h2>Welcome, {{ current_user.name }} to Admin Dashboard</h2>
+        <div>
+            <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+        </div>
+    </div>
+    <div style="position: absolute; top: 80px; right: 925px;">
+        <a href="{{ url_for('add_user') }}" class="btn btn-primary">Add New User</a>
+    </div>
+
+    <p>Total Registered Users: {{ user_count }}</p>
+
+    <h3>User Management</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.name }}</td>
+                <td>{{ user.role }}</td>
+                <td>{{ user.email }}</td>
+                <td class="action-btns">
+                    <a class="btn" href="{{ url_for('user_details', user_id=user.id) }}">View</a>
+                    <a class="btn" href="{{ url_for('update_user', user_id=user.id) }}">Edit</a>
+                    <a class="btn" href="{{ url_for('delete_user', user_id=user.id) }}">Delete</a>
+                    <a class="btn" href="{{ url_for('change_role', user_id=user.id) }}">Change Role</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h3>Question Management</h3>
+    <a class="btn" href="{{ url_for('add_question') }}">Add New Question</a>
+    <a class="btn" href="{{ url_for('manage_questions') }}">Manage Questions</a>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <script>
+            {% for category, message in messages %}
+                Swal.fire({
+                icon: "{{ 'success' if category == 'success' else 'error' }}",
+                title: "{{ message }}",
+                timer: 3000,
+                showConfirmButton: false
+                });
+            {% endfor %}
+            </script>
+        {% endif %}
+    {% endwith %}
+
+</body>
+</html>

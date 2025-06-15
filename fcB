@@ -1,0 +1,56 @@
+{
+    "Operating System": [
+        {"question": "What is the full form of OS?", "answer": "Operating System"},
+        {"question": "What is virtual memory?", "answer": "Memory management technique"},
+        {"question": "What does CPU stand for?", "answer": "Central Processing Unit"},
+        {"question": "What is a file system?", "answer": "System to manage files"},
+        {"question": "What is a process?", "answer": "Program in execution"}
+    ],
+    "Object-Oriented Programming": [
+        {"question": "What does OOPS stand for?", "answer": "Object-Oriented Programming System"},
+        {"question": "What is inheritance?", "answer": "Ability to derive new class from existing class"},
+        {"question": "What is polymorphism?", "answer": "Ability to take many forms"},
+        {"question": "What is encapsulation?", "answer": "Binding of data and methods together"},
+        {"question": "What is abstraction?", "answer": "Hiding unnecessary details"}
+    ],
+    "Data Structures and Algorithms": [
+        {"question": "What does DSA stand for?", "answer": "Data Structures and Algorithms"},
+        {"question": "What is a stack?", "answer": "LIFO data structure"},
+        {"question": "What is a queue?", "answer": "FIFO data structure"},
+        {"question": "What is a linked list?", "answer": "Linear data structure"},
+        {"question": "What is quicksort?", "answer": "Sorting algorithm"}
+    ],
+    "Database": [
+        {"question": "What does SQL stand for?", "answer": "Structured Query Language"},
+        {"question": "What is normalization?", "answer": "Process of organizing data"},
+        {"question": "What is a foreign key?", "answer": "Key used to link two tables"},
+        {"question": "What is a primary key?", "answer": "Unique identifier for records"},
+        {"question": "What is an index?", "answer": "Improves the speed of operations"}
+    ],
+    "Computer Networks": [
+        {"question": "What is an IP address?", "answer": "Unique address for devices on a network"},
+        {"question": "What is DNS?", "answer": "Domain Name System"},
+        {"question": "What is HTTP?", "answer": "HyperText Transfer Protocol"},
+        {"question": "What is a router?", "answer": "Device that routes data across networks"},
+        {"question": "What is a firewall?", "answer": "Security system for networks"}
+    ],
+    "Computer Graphics": [
+        {"question": "What does CG stand for?", "answer": "Computer Graphics"},
+        {"question": "What is raster graphics?", "answer": "Images made up of pixels"},
+        {"question": "What is vector graphics?", "answer": "Graphics made using paths"},
+        {"question": "What is a GPU?", "answer": "Graphics Processing Unit"},
+        {"question": "What is the difference between 2D and 3D graphics?", "answer": "2D is flat, 3D is depth-based"},
+        {"question": "What is a pixel?", "answer": "Smallest unit of a digital image"},
+        {"question": "What is anti-aliasing?", "answer": "Technique to smooth jagged edges in graphics"},
+        {"question": "What is rendering?", "answer": "The process of generating an image from a model"},
+        {"question": "What is a texture?", "answer": "Image applied to a 3D surface to give detail"},
+        {"question": "What is OpenGL?", "answer": "A graphics library for rendering 2D and 3D images"}
+    ],
+    "Others": [
+        {"question": "What is a compiler?", "answer": "Converts source code to machine code"},
+        {"question": "What is an interpreter?", "answer": "Executes code line by line"},
+        {"question": "What is an algorithm?", "answer": "Set of instructions to solve a problem"},
+        {"question": "What is a cloud?", "answer": "Remote storage and computing"},
+        {"question": "What is blockchain?", "answer": "Distributed ledger technology"}
+    ]
+}
